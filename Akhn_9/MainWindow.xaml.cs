@@ -105,7 +105,7 @@ namespace AkhnGear
                     concl = "";
                     testname = "";
 
-                    if (line == "XXXYYY") calculate = false;
+                    if (line == "/*!40000 ALTER TABLE `results` ENABLE KEYS */;") calculate = false;
                     for (int i = 0; i <= line.Length - 1; i++)
                     {
                         if (line[i] == char1) rekord++;
